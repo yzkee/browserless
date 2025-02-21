@@ -1,6 +1,26 @@
-# [Latest](https://github.com/browserless/chrome/compare/v2.24.3...main)
+# [Latest](https://github.com/browserless/chrome/compare/v2.25.1...main)
 
 - Dependency updates.
+
+# [Latest](https://github.com/browserless/chrome/compare/v2.25.0...v2.25.1)
+
+- Removes edge from `arm64` builds due to lack of support.
+
+# [v2.25.0](https://github.com/browserless/chrome/compare/v2.24.3...v2.25.0)
+
+- Dependency updates.
+- Supports:
+  - puppeteer-core: 24.2.1
+  - playwright-core: 1.50.1, 1.49.1, 1.48.2, 1.47.2, and 1.46.1.
+  - Chromium: 133.0.6943.16
+  - Chrome: 133.0.6943.127
+  - Firefox: 134.0
+  - Webkit: 18.2
+- Pins playwright and puppeteer deps in package.json for browser-version consistency in SDK projects
+- Added support for Edge browser! [Check out available packages here.](https://github.com/orgs/browserless/packages)
+- Fixes headers object in the /scrape API
+- Code formatting fixes
+- Link fixes in certain READMEs
 
 # [v2.24.3](https://github.com/browserless/chrome/compare/v2.24.2...v2.24.3)
 
